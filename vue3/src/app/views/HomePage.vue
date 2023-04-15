@@ -6,7 +6,10 @@
     <div class="home-name">
       {{ $t('name') }}
     </div>
-    <h1>Welcome All Vue Enjoyer</h1>
+    <p class="text-2xl font-bold underline">
+      Welcome All Vue Enjoyer
+    </p>
+
     <AppLogo />
     <div v-html="$t('generated')" />
     <transition name="hide">

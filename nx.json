@@ -48,7 +48,8 @@
       "style": "scss",
       "linter": "eslint",
       "unitTestRunner": "jest",
-      "e2eTestRunner": "cypress"
+      "e2eTestRunner": "cypress",
+      "port": 3002
     },
     "@nrwl/angular:library": {
       "linter": "eslint",
@@ -62,7 +63,8 @@
         "style": "scss",
         "linter": "eslint",
         "bundler": "vite",
-        "babel": true
+        "babel": true,
+        "port": 3001
       },
       "component": {
         "style": "scss"

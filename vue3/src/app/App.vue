@@ -4,6 +4,12 @@
   </div>
 </template>
 
+<script setup lang="ts">
+import { useQueryProvider } from "vue-query";
+
+useQueryProvider();
+</script>
+
 <style lang="postcss">
 @import '../assets/css/font.css';
 @import '../assets/css/global.css';
