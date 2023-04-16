@@ -6,6 +6,7 @@ import { vuetify } from './vuetify';
 
 import { createPinia } from 'pinia'
 import { VueQueryPlugin } from "vue-query";
+import '../assets/output/tailwind.css';
 
 const pinia = createPinia()
 

@@ -63,8 +63,7 @@
         "style": "scss",
         "linter": "eslint",
         "bundler": "vite",
-        "babel": true,
-        "port": 3001
+        "babel": true
       },
       "component": {
         "style": "scss"

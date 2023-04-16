@@ -6,8 +6,8 @@
     <div class="home-name">
       {{ $t('name') }}
     </div>
-    <p class="text-2xl font-bold underline">
-      Welcome All Vue Enjoyer
+    <p class="text-3xl font-bold underline">
+      {{ $t('Welcome All Vue Enjoyer') }}
     </p>
 
     <AppLogo />
